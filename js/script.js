@@ -8,7 +8,7 @@
     once: true
   });
 
-  
+
   $(window).on('scroll', function () {
 		//.Scroll to top show/hide
     var scrollToTop = $('.scroll-top-to'),
@@ -75,9 +75,9 @@
     var syoTimer = $('#simple-timer');
     if (syoTimer) {
       $('#simple-timer').syotimer({
-        year: 2023,
-        month: 9,
-        day: 1,
+        year: 2022,
+        month: 10,
+        day: 15,
         hour: 0,
         minute: 0
       });
