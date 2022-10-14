@@ -10,7 +10,7 @@
 
 
   $(window).on('scroll', function () {
-		//.Scroll to top show/hide
+    //.Scroll to top show/hide
     var scrollToTop = $('.scroll-top-to'),
       scroll = $(window).scrollTop();
     if (scroll >= 200) {
@@ -19,7 +19,7 @@
       scrollToTop.fadeOut(100);
     }
   });
-	// scroll-to-top
+  // scroll-to-top
   $('.scroll-top-to').on('click', function () {
     $('body,html').animate({
       scrollTop: 0
@@ -27,7 +27,7 @@
     return false;
   });
 
-  $(document).ready(function() {
+  $(document).ready(function () {
 
     // navbarDropdown
     if ($(window).width() < 992) {
@@ -77,7 +77,7 @@
       $('#simple-timer').syotimer({
         year: 2022,
         month: 10,
-        day: 15,
+        day: 17,
         hour: 0,
         minute: 0
       });
